@@ -1,5 +1,6 @@
 # Table of contents
 
-* [숫자 와 문자](README.md)
-* [변수](undefined.md)
+* [자바스크립트](README.md)
+* [숫자와 문자](chapt1.md)
+* [변수](chapt2.md)
 

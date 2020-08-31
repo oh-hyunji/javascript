@@ -1,4 +1,4 @@
-# 숫자 와 문자
+# 자바스크립트
 
 데이터 형 \(data type\) : 숫자
 
@@ -16,39 +16,43 @@ Math.random(); // 0부터 1.0사이의 랜덤한 숫자
 Math.round(100 * Math.random()); // 100.0사이의 반올림된 랜덤한 숫자
 ```
 
-데이터 형 \(data type\) : 문자(String)
+데이터 형 \(data type\) : 문자\(String\)
 
 * 문자는 "\(큰 따옴표\) , '\(작은 따옴표\) 중의 하나로 감싸야함
 * 끝날때도 시작한 따옴표로 동일하게 끝나야함
-* 숫자를 따옴표로 감싸면 문자 
+* 숫자를 따옴표로 감싸면 문자
+* typeof : 데이터 형을 알려줌
 
-* typeof : 데이터 형을 알려줌 
-```text
-alert\(typeof "1"\); // string, 문자 
-alert\(typeof 1\); // number, 숫자
-```
+  ```text
+  alert\(typeof "1"\); // string, 문자 
+  alert\(typeof 1\); // number, 숫자
+  ```
 
 * escape \(이스케이프\) : \' 문자로 해석하도록 강제 할 수 있음
-```text
-alert\('egoing\'s javascript'\); // egoing's javascript 
-```
 
-* \n - 줄바꿈을 의미하는 특수한 문자 
-```text
-alert\("coding \n everybody"\);
-/*
-coding
-everybody
-*/
-```
+  ```text
+  alert\('egoing\'s javascript'\); // egoing's javascript
+  ```
+
+* \n - 줄바꿈을 의미하는 특수한 문자
+
+  ```text
+  alert\("coding \n everybody"\);
+  /*
+  coding
+  everybody
+  */
+  ```
 
 * 문자와 문자를 더할 때 : "문자" + "문자"
-```text
-alert\("coding"+" everybody"\); // coding everybody
-```
 
-* 문자의 길이를 구할 때 : "문자".length 
-```text
-alert\("coding everybody".length\); // 16
-```
+  ```text
+  alert\("coding"+" everybody"\); // coding everybody
+  ```
+
+* 문자의 길이를 구할 때 : "문자".length
+
+  ```text
+  alert\("coding everybody".length\); // 16
+  ```
 
