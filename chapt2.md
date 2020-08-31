@@ -9,20 +9,7 @@
 * var : 변수를 선언하겠다는 의미
 * var을 생략 할 수 있지만 유효범위라는 것에 영향을 미침
 * 변수의 이름은 $ , _ , 혹은 특수 문자를 제외한 모든 문자 시작 가능
-```text
-var a = 1;
-alert(a+1);  // 2
 
-var a = 2;
-alert(a+1);  // 3
-
-var first = "coding";
-alert(first+" everybody"); // first everybody
-
-var a = 'coding', b = 'everybody';
-alert(a); // coding
-alert(b); // everybody
-```
 
 * 변수는 코드의 재활용성을 높여줌
 ```text
