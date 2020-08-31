@@ -1,4 +1,4 @@
 # Table of contents
 
-* [자바스크립트](README.md)
+* [숫자 와 문자](README.md)
 
