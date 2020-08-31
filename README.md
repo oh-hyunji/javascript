@@ -43,6 +43,15 @@ everybody
 */
 ```
 
-* 문자와 문자를 더할 때 : "문자" + "문자" alert\("coding"+" everybody"\); - coding everybody
-* 문자의 길이를 구할 때 : "문자".length alert\("coding everybody".length\); - 16
+* 문자와 문자를 더할 때 : "문자" + "문자"
+
+```text
+alert\("coding"+" everybody"\); // coding everybody
+```
+
+* 문자의 길이를 구할 때 : "문자".length 
+
+```text
+alert\("coding everybody".length\); // 16
+```
 
