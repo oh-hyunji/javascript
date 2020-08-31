@@ -22,11 +22,6 @@ alert(first+" everybody"); // first everybody
 var a = 'coding', b = 'everybody';
 alert(a); // coding
 alert(b); // everybody
-
-/*
-  // - 주석
-  ; - 하나의 구문이 끝났음을 명시
-*/
 ```
 
 * 변수는 코드의 재활용성을 높여줌
