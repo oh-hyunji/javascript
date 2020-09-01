@@ -24,20 +24,20 @@ Math.round(100 * Math.random()); // 100.0사이의 반올림된 랜덤한 숫자
 * typeof : 데이터 형을 알려줌
 
   ```text
-  alert(typeof "1"\); // string, 문자 
-  alert(typeof 1\); // number, 숫자
+  alert(typeof "1"); // string, 문자 
+  alert(typeof 1); // number, 숫자
   ```
 
 * escape \(이스케이프\) : \' 문자로 해석하도록 강제 할 수 있음
 
   ```text
-  alert('egoing\'s javascript'\); // egoing's javascript
+  alert('egoing\'s javascript'); // egoing's javascript
   ```
 
 * \n - 줄바꿈을 의미하는 특수한 문자
 
   ```text
-  alert("coding \n everybody"\);
+  alert("coding \n everybody");
   /*
   coding
   everybody
@@ -47,12 +47,12 @@ Math.round(100 * Math.random()); // 100.0사이의 반올림된 랜덤한 숫자
 * 문자와 문자를 더할 때 : "문자" + "문자"
 
   ```text
-  alert("coding"+" everybody"\); // coding everybody
+  alert("coding"+" everybody"); // coding everybody
   ```
 
 * 문자의 길이를 구할 때 : "문자".length
 
   ```text
-  alert("coding everybody".length\); // 16
+  alert("coding everybody".length); // 16
   ```
 
