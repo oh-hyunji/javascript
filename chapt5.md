@@ -118,17 +118,61 @@ if(id=='egoing' && password=='111111'){
 * 좌항과 우항 둘중 하나가 true면 true가 됨
 * 좌항, 우항 모두 false면 false
 
+```text
+id = prompt('아이디를 입력해주세요.');
+password = prompt('비밀번호를 입력해주세요.');
+if((id==='egoing' || id==='k8805' || id==='sorialgi') && password==='111111'){
+    alert('인증 했습니다.'); // 조건중 하나만 성립하면 실행  
+} else {
+    alert('인증에 실패 했습니다.');
+}
+```
+
 **! \(not 연산자\)**
 
 * Boolean의 값을 역전시킴
+
+```text
+if(!true && !true){ //  false && false
+    alert(1);
+}
+```
 
 ### Boolean의 대체제
 
 * 0,1 : 조건문에 사용될 수 있는 데이터 형은 불리만 되는 것이 아님
 
+```text
+if(0){ // false
+    alert(1)
+}
+if(1){ // true
+    alert(2)
+}
+```
+
 **기타 false로 간주되는 데이터 형**
 
 * false와 0 외에 false로 간주되는 데이터형의 리스트
+
+```text
+if(!''){
+    alert('빈 문자열')
+}
+if(!undefined){
+    alert('undefined');
+}
+var a;
+if(!a){
+    alert('값이 할당되지 않은 변수'); 
+}
+if(!null){
+    alert('null');
+}
+if(!NaN){
+    alert('NaN');
+}
+```
 
 
 
