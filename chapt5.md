@@ -9,7 +9,7 @@
 * if로 시작 뒤에 \(\)괄호 조건이 오고, 조건이 될 수 있는 값은 Boolean
 * **if문의 조건이 참이면 중괄호의 시작\({}부터 중괄호의 끝\(}\)까지의 구간이 실행**, 거짓이면 실행되지 않음.
 
-```text
+```javascript
 if(true){
     alert(1);
     alert(2);
@@ -26,7 +26,7 @@ alert(5);
 
 * 주어진 **조건이 거짓**일 때 실행할 구간을 정의
 
-```text
+```javascript
 if(true){
     alert(1);
 } else {
@@ -43,7 +43,7 @@ if(true){
 * if나 else와는 다르게 여러개가 올 수 있다는 점
 * **else if의 모든 조건이 false라면 else가 실행**, else 생략 가능
 
-```text
+```javascript
 if(false){
     alert(1);
 } else if(false){
@@ -64,7 +64,7 @@ if(false){
 
 * id가 name이면 '아이디가 일치 합니다' 출력
 
-```text
+```javascript
 id = prompt('아이디를 입력해주세요.');
 
 if(id=='name'){ 
@@ -79,7 +79,7 @@ if(id=='name'){
 
 * if문 안에 if문이 등장 
 
-```text
+```javascript
 id = prompt('아이디를 입력해주세요.');
 
 if(id=='name'){
@@ -101,7 +101,7 @@ if(id=='name'){
 * 좌항과 우항이 **모두 true\(참\)**일 때 참
 * 중첩 if문을 줄일 수 있음, 코드의 복잡성이 낮아짐
 
-```text
+```javascript
 id = prompt('아이디를 입력해주세요.');
 password = prompt('비밀번호를 입력해주세요.');
 
@@ -118,7 +118,7 @@ if(id=='egoing' && password=='111111'){
 * 좌항과 우항 둘중 **하나가 true**면 true가 됨
 * 좌항, 우항 모두 false면 false
 
-```text
+```javascript
 id = prompt('아이디를 입력해주세요.');
 password = prompt('비밀번호를 입력해주세요.');
 if((id==='egoing' || id==='k8805' || id==='sorialgi') && password==='111111'){
@@ -132,7 +132,7 @@ if((id==='egoing' || id==='k8805' || id==='sorialgi') && password==='111111'){
 
 * Boolean의 값을 역전시킴
 
-```text
+```javascript
 if(!true && !true){ //  false && false
     alert(1);
 }
@@ -142,7 +142,7 @@ if(!true && !true){ //  false && false
 
 * **0,1** : 조건문에 사용될 수 있는 데이터 형은 불리만 되는 것이 아님
 
-```text
+```javascript
 if(0){ // false
     alert(1)
 }
@@ -156,7 +156,7 @@ if(1){ // true
 
 * false와 0 외에 false로 간주되는 데이터형의 리스트
 
-```text
+```javascript
 if(!''){
     alert('빈 문자열')
 }
