@@ -64,9 +64,35 @@ if(false){
 
 * id가 name이면 '아이디가 일치 합니다' 출력
 
+```text
+id = prompt('아이디를 입력해주세요.');
+
+if(id=='name'){ 
+    // 입력받은 값이 name이면 실
+    alert('아이디가 일치 합니다.'); 
+} else {
+    alert('아이디가 일치하지 않습니다.');
+}
+```
+
 ### 조건문의 중첩
 
 * if문 안에 if문이 등장 
+
+```text
+id = prompt('아이디를 입력해주세요.');
+
+if(id=='name'){
+    password = prompt('비밀번호를 입력해주세요.');
+    if(password==='111111'){ // if안 if 중
+        alert('인증 했습니다.');
+    } else {
+        alert('인증에 실패 했습니다.');
+    }
+} else {
+    alert('인증에 실패 했습니다.');
+}
+```
 
 ### 논리 연산자
 
@@ -74,6 +100,18 @@ if(false){
 
 * 좌항과 우항이 모두 true\(참\)일 때 참
 * 중첩 if문을 줄일 수 있음, 코드의 복잡성이 낮아짐
+
+```text
+id = prompt('아이디를 입력해주세요.');
+password = prompt('비밀번호를 입력해주세요.');
+
+// 조건문 중첩 사용하시 않고 and 연산자 사
+if(id=='egoing' && password=='111111'){
+    alert('인증 했습니다.');
+} else {
+    alert('인증에 실패 했습니다.');
+}
+```
 
 **\|\| \(or 연산자\)**
 
