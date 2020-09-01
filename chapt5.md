@@ -9,15 +9,54 @@
 * if로 시작 뒤에 \(\)괄호 조건이 오고, 조건이 될 수 있는 값은 Boolean
 * if문의 조건이 참이면 중괄호의 시작\({}부터 중괄호의 끝\(}\)까지의 구간이 실행, 거짓이면 실행되지 않음.
 
+```text
+if(true){
+    alert(1);
+    alert(2);
+    alert(3);
+    alert(4);
+}
+alert(5);
+
+// true ? return 1,2,3,4
+// false ? return 5
+```
+
 **else**
 
 * 주어진 조건이 거짓일 때 실행할 구간을 정의
+
+```text
+if(true){
+    alert(1);
+} else {
+    alert(2);
+}
+
+// true ? return 1 
+// false ? return 2
+```
 
 **else if**
 
 * 다양한 케이스의 조건을 검사
 * if나 else와는 다르게 여러개가 올 수 있다는 점
 * else if의 모든 조건이 false라면 else가 실행, else 생략 가능
+
+```text
+if(false){
+    alert(1);
+} else if(false){
+    alert(2);
+} else if(true){
+    alert(3);
+} else {
+    alert(4);
+}
+
+// return 3
+// 다 false일 경우 return 4
+```
 
 ### 변수와 비교연산자
 
