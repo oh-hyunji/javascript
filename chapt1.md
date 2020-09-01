@@ -26,7 +26,7 @@ Math.round(100 * Math.random()); // 100.0사이의 반올림된 랜덤한 숫자
 
 ```javascript
 alert(typeof "1"); // string, 문자 
-alert(typeof 1); // number, 숫자
+alert(typeof 1);   // number, 숫자
 ```
 
 * **escape \(이스케이프\)** : \' 문자로 해석하도록 강제 할 수 있음
