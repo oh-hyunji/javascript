@@ -68,7 +68,7 @@ if(false){
 id = prompt('아이디를 입력해주세요.');
 
 if(id=='name'){ 
-    // 입력받은 값이 name이면 실
+    // 입력받은 값이 name이면 실행
     alert('아이디가 일치 합니다.'); 
 } else {
     alert('아이디가 일치하지 않습니다.');
@@ -84,7 +84,7 @@ id = prompt('아이디를 입력해주세요.');
 
 if(id=='name'){
     password = prompt('비밀번호를 입력해주세요.');
-    if(password==='111111'){ // if안 if 중
+    if(password==='111111'){ // if안 if 중첩문  
         alert('인증 했습니다.');
     } else {
         alert('인증에 실패 했습니다.');
@@ -105,9 +105,9 @@ if(id=='name'){
 id = prompt('아이디를 입력해주세요.');
 password = prompt('비밀번호를 입력해주세요.');
 
-// 조건문 중첩 사용하시 않고 and 연산자 사
+// 조건문 중첩 사용하시 않고 and 연산자 사용
 if(id=='egoing' && password=='111111'){
-    alert('인증 했습니다.');
+    alert('인증 했습니다.'); // 조건 성립
 } else {
     alert('인증에 실패 했습니다.');
 }
