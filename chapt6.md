@@ -12,10 +12,10 @@
 var i = 0;
 // 종료조건으로 i의 값이 10보다 작다면 true, 같거나 크다면 false가 된다.
 while(i < 10){
-    // 반복이 실행될 때마다 coding everybody <br />이 출력된다. <br /> 줄바꿈을 의미하는 HTML 태그
+    // 반복이 실행될 때마다 coding everybody <br/>이 출력된다. 
+    // <br/> 줄바꿈을 의미하는 HTML 태그
     document.write('coding everybody <br />');
-    // i의 값이 1씩 증가한다.
-    i++
+    i++; // i의 값이 1씩 증가한다. (i = i + 1;)
 }
 
 // 조건이 true일 경우는 무한루프 조심!
@@ -43,7 +43,7 @@ for(var i = 0; i < 10; i++){
 **break**
 
 * 반복작업을 중단 시킬때 사용
-* 반복문 안에서 break가 실행되면 반복문을 즉시 종료
+* 반복문 안에서 **break가 실행되면 반복문을 즉시 종료**
 
 ```text
 for(var i = 0; i < 10; i++){
@@ -58,7 +58,7 @@ for(var i = 0; i < 10; i++){
 
 **continue**
 
-* 실행을 즉시 중단 하면서 반복은 지속됨
+* **실행을 즉시 중단 하면서 반복은 지속**됨
 
 ```text
 for(var i = 0; i < 10; i++){
