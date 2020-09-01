@@ -8,7 +8,7 @@
 * 거짓\(false\)면 실해되지 않음
 * 종료 조건이 잘못될 경우 무한반복 또는 반복문이 실행되지 않음
 
-```text
+```javascript
 var i = 0;
 // 종료조건으로 i의 값이 10보다 작다면 true, 같거나 크다면 false가 된다.
 while(i < 10){
@@ -30,7 +30,7 @@ for(초기화; 반복조건; 반복이 될 때마다 실행되는 코드){
 }
 ```
 
-```text
+```javascript
 for(var i = 0; i < 10; i++){
     document.write('coding everybody'+i+'<br />');
 }
@@ -45,7 +45,7 @@ for(var i = 0; i < 10; i++){
 * 반복작업을 중단 시킬때 사용
 * 반복문 안에서 **break가 실행되면 반복문을 즉시 종료**
 
-```text
+```javascript
 for(var i = 0; i < 10; i++){
     if(i === 5) {
         break;
@@ -60,7 +60,7 @@ for(var i = 0; i < 10; i++){
 
 * **실행을 즉시 중단 하면서 반복은 지속**됨
 
-```text
+```javascript
 for(var i = 0; i < 10; i++){
     if(i === 5) {
         continue;
@@ -75,7 +75,7 @@ for(var i = 0; i < 10; i++){
 
 * **for안에 for**
 
-```text
+```javascript
 // 0부터 9까지 변수 i에 순차적으로 값을 할당        
 for(var i = 0; i < 10; i++){
     // 0부터 9까지의 변수를 j의 값에 순차적으로 할당
