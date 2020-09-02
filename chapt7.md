@@ -72,7 +72,7 @@ alert(get_argument(1)); // 인자 : 1, return : 1
 alert(get_argument(2)); // 인자 : 2, return : 2
 ```
 
-###  복수의 인자
+ **복수의 인자**
 
 *  여러개의 인자 값을 받는 경
 
@@ -87,8 +87,6 @@ alert(get_arguments(20, 30)); // 복수 인자 : 20, 30 | return : 50
 
 ### 함수를 정의 하는 다른 방법
 
-* **함수의 표현식**
-
 ```javascript
 var numbering = function (){
     i = 0;
@@ -98,5 +96,7 @@ var numbering = function (){
     }   
 }
 numbering(); // return : 0 ~ 9
+
+function(){}; // 익명(이름이 없는) 함수
 ```
 
