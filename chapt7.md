@@ -97,6 +97,6 @@ var numbering = function (){
         i += 1;
     }   
 }
-numbering();
+numbering(); // return : 0 ~ 9
 ```
 
