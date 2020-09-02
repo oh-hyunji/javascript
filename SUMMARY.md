@@ -7,4 +7,7 @@
 * [비교](chapt4.md)
 * [조건문](chapt5.md)
 * [반복문](chapt6.md)
+* [함수](chapt7.md)
+* [배열](chapt8.md)
+* [객체](chapt9.md)
 
