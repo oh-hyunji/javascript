@@ -40,8 +40,8 @@ alert('egoing\'s javascript'); // egoing's javascript
 ```javascript
 alert("coding \n everybody");
 /*
-coding
-everybody
+  coding
+  everybody
 */
 ```
 
