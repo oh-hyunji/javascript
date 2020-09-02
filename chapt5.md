@@ -18,8 +18,8 @@ if(true){
 }
 alert(5);
 
-// true ? return 1,2,3,4
-// false ? return 5
+// true ? return : 1,2,3,4
+// false ? return : 5
 ```
 
 **else**
@@ -33,8 +33,8 @@ if(true) {
     alert(2);
 }
 
-// true ? return 1 
-// false ? return 2
+// true ? return : 1 
+// false ? return : 2
 ```
 
 **else if**
@@ -55,7 +55,7 @@ if(false) {
 }
 
 // return 3
-// 다 false일 경우 return 4
+// 다 false일 경우 return : 4
 ```
 
 ## 변수와 비교연산자
