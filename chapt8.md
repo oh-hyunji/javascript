@@ -36,7 +36,7 @@ alert(arr.length); // 5
 
 ### 배열의 조작
 
- **push 추**
+ **push 추가** 
 
 * 배열의 **끝에 원소를 추가**
 * 인자로 전달된 값을 배열\(li\)에 추가하는 명령
@@ -47,7 +47,7 @@ li.push('f');
 alert(li); // return : a,b,c,d,e,f
 ```
 
-**concat 추**
+**concat 추가** 
 
 * **복수의 원소를 배열에 추가**
 * 인자로 전달된 값을 추가하는 명령
@@ -58,7 +58,7 @@ li = li.concat(['f', 'g']);
 alert(li); // return : a,b,c,d,e,f,g
 ```
 
-**unshift 추**
+**unshift 추가** 
 
 * 배열의 **시작점에 원소 추가**
 * 인자로 전달한 값을 배열의 첫번째 원소로 추가, 기존 값들의 색인을 1씩 증가
@@ -69,7 +69,7 @@ li.unshift('z');
 alert(li); // return : z,a,b,c,d,e
 ```
 
-**splice 추**
+**splice 추가** 
 
 ```javascript
 splice(start, deleteCount, item);
@@ -84,7 +84,7 @@ li.splice(2, 0, 'B');
 alert(li); // return : a,b,B,c,d,e
 ```
 
-**shift 제**
+**shift 제거** 
 
 * 배열의 **첫번째 원소를 제거** 
 
@@ -94,7 +94,7 @@ li.shift();
 alert(li); // return : b,c,d,e
 ```
 
-**pop 제**
+**pop 제거** 
 
 * 배열의 **끝점의 원소를 배열 li에서 제거**
 
@@ -104,7 +104,7 @@ li.pop();
 alert(li); // return : a,b,c,d
 ```
 
-**sort 정**
+**sort 정렬** 
 
 * **순차적으로 정렬**
 
@@ -114,7 +114,7 @@ li.sort();
 alert(li); // return : a,b,c,d,e
 ```
 
-**reverse 정**
+**reverse 정렬** 
 
 * **역순으로 정렬**
 
