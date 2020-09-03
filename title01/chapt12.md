@@ -61,7 +61,7 @@ console.log('abcdef'.replace(pattern, 'A'));  // Abcdef
 
 ### 옵션
 
-**i** 
+### **i** 
 
 * i를 붙이면 **대소문자를 구분하지 않음** 
 
@@ -72,7 +72,7 @@ var oi = /a/i;
 console.log("Abcde".match(oi)); // ["A"];
 ```
 
- **g**
+**g**
 
 * g를 붙이면 **검색된 모든 결과를 리턴**
 
@@ -83,9 +83,9 @@ var og = /a/g;
 console.log("abcdea".match(og)); //  ["a", "a"]
 ```
 
-###  사례
+### 사례 
 
- **캡처**
+**캡처**
 
 * 괄호안의 **패턴은 마치 변수처럼 재사용**
 * $: coding과 everybody의 순서를 역전시킨다.
@@ -97,7 +97,7 @@ var result = str.replace(pattern, "$2, $1");
 console.log(result); // everybody, coding 
 ```
 
- **치환** 
+**치환** 
 
 ```javascript
 var urlPattern = /\b(?:https?):\/\/[a-z0-9-+&@#\/%?=~_|!:,.;]*/gim;
@@ -110,7 +110,7 @@ console.log(result);
 // 생활코딩 : <a href="http://opentutorials.org/course/1">http://opentutorials.org/course/1</a> 입니다. 네이버 : <a href="http://naver.com">http://naver.com</a> 입니다.
 ```
 
-###   참고 
+###  참고 
 
 *  [정규표현식을 시각화](http://www.regexper.com/)
 *  [정규표현식 빌더](http://www.regexr.com/)
