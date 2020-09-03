@@ -83,5 +83,30 @@ var og = /a/g;
 console.log("abcdea".match(og)); //  ["a", "a"]
 ```
 
+###  사례
 
+ **캡처**
+
+* 괄호안의 **패턴은 마치 변수처럼 재사용**
+* $: coding과 everybody의 순서를 역전시킨다.
+
+```javascript
+var pattern = /(\w+)\s(\w+)/;
+var str = "coding everybody";
+var result = str.replace(pattern, "$2, $1");
+console.log(result); // everybody, coding 
+```
+
+ **치환** 
+
+```javascript
+var urlPattern = /\b(?:https?):\/\/[a-z0-9-+&@#\/%?=~_|!:,.;]*/gim;
+var content = '생활코딩 : http://opentutorials.org/course/1 입니다. 네이버 : http://naver.com 입니다. ';
+var result = content.replace(urlPattern, function(url){
+    return '<a href="'+url+'">'+url+'</a>';
+});
+console.log(result);
+
+// 생활코딩 : <a href="http://opentutorials.org/course/1">http://opentutorials.org/course/1</a> 입니다. 네이버 : <a href="http://naver.com">http://naver.com</a> 입니다.
+```
 
