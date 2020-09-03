@@ -10,4 +10,7 @@
 * [함수](chapt7.md)
 * [배열](chapt8.md)
 * [객체](chapt9.md)
+* [모듈](chapt10.md)
+* [UI와 API 그리고 문서보는 법](chapt11.md)
+* [정규표현식](chapt12.md)
 
