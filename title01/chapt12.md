@@ -110,7 +110,7 @@ console.log(result);
 // 생활코딩 : <a href="http://opentutorials.org/course/1">http://opentutorials.org/course/1</a> 입니다. 네이버 : <a href="http://naver.com">http://naver.com</a> 입니다.
 ```
 
-###  참
+###   참고 
 
 *  [정규표현식을 시각화](http://www.regexper.com/)
 *  [정규표현식 빌더](http://www.regexr.com/)
