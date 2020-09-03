@@ -25,7 +25,7 @@
 * [ECMAScript \(표준문서\) ](http://www.ecma-international.org/publications/standards/Ecma-262.htm)
 * 자바스크립트 사전 \(생활코딩\)
 * [자바스크립트 레퍼런스 \(MDN\)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference) 
-* [jscript 레퍼런스 \(MSDN](%20https://docs.microsoft.com/ko-kr/previous-versions/visualstudio/visual-studio-2010/z688wt03%28v=vs.100%29?redirectedfrom=MSDN)\)
+* jscript 레퍼런스 \(MSDN\)
 
 ### 호스트 환경의 API 문서
 
