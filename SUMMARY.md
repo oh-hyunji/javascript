@@ -17,7 +17,7 @@
 * [UI와 API 그리고 문서보는 법](title01/chapt11.md)
 * [정규표현식](title01/chapt12.md)
 
-## 함수지향
+## 함수지향 <a id="title02"></a>
 
-* [유효범위](undefined/chapt13.md)
+* [유효범위](title02/chapt13.md)
 
