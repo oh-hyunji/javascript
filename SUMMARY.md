@@ -20,5 +20,4 @@
 ## 함수지향
 
 * [유효범위](undefined/chapt13.md)
-* [값으로서의 함수와 콜백](undefined/chapt14.md)
 
