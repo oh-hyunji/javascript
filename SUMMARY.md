@@ -19,5 +19,5 @@
 
 ## 함수지향 <a id="title02"></a>
 
-* [유효범위](title02/chapt13.md)
+* [유효범위](title02/chapt01.md)
 
