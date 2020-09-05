@@ -20,4 +20,6 @@
 ## 함수지향 <a id="title02"></a>
 
 * [유효범위](title02/chapt01.md)
+* [값으로서의 함수와 콜백](title02/chapt02.md)
+* [클로저](title02/chapt03.md)
 
