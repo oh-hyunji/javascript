@@ -38,7 +38,7 @@ function sum(){
     }
     return _sum;
 }
-alert(sum.apply(o1)) // 6
+alert(sum.apply(o1)) // 6 - this가 o1
 alert(sum.apply(o2)) // 185
 ```
 
