@@ -13,7 +13,7 @@ var person = {
         return 'My name is '+this.name;
     }
 }
-document.write(person.introduce());
+document.write(person.introduce()); // My name is egoing
 ```
 
 ### 생성자\(constructor\)
@@ -31,10 +31,15 @@ function Person(name){
     }   
 }
 var p1 = new Person('egoing');
-document.write(p1.introduce()+"<br />");
+document.write(p1.introduce()+"<br />"); 
  
 var p2 = new Person('leezche');
 document.write(p2.introduce());
+
+/*
+    My name is egoing
+    My name is leezche
+*/
 ```
 
 ### 자바스크립트 생성자의 특징
