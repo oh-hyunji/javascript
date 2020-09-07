@@ -38,3 +38,7 @@ func(a);
 console.log(a.id);  // 2
 ```
 
+### 참조
+
+* [코드와 오픈소스](http://opentutorials.org/course/1189/6340)
+
