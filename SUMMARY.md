@@ -38,7 +38,7 @@
 * [데이터 타입](title03/chapt09.md)
 * [참조](title03/chapt10.md)
 
-## 패턴
+## 패턴 <a id="title04"></a>
 
-* [재귀함수](undefined/chapt01.md)
+* [재귀함수](title04/chapt01.md)
 
