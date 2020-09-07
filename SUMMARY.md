@@ -32,4 +32,13 @@
 * [전역객체](title03/chapt03.md)
 * [this](title03/chapt04.md)
 * [상속](title03/chapt05.md)
+* [prototype](title03/chapt06.md)
+* [표준 내장 객체의 확장](title03/chapt07.md)
+* [Object](title03/chapt08.md)
+* [데이터 타입](title03/chapt09.md)
+* [참조](title03/chapt10.md)
+
+## 패턴
+
+* [재귀함수](undefined/chapt01.md)
 
