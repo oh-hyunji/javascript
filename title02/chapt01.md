@@ -76,7 +76,7 @@ MYAPP.calculator.right = 20;
 function sum(){
     return MYAPP.calculator.left + MYAPP.calculator.right;
 }
-document.write(sum());
+document.write(sum()); // 30 
 
 // 전역변수를 사용하고 싶지 않다면 아래와 같이 익명함수를 호출함
 (function(){ // 익명함수, 즉시실행 함수   
@@ -94,7 +94,7 @@ document.write(sum());
     function sum(){
         return MYAPP.calculator.left + MYAPP.calculator.right;
     }
-    document.write(sum());
+    document.write(sum()); // 30   
 }());  
 // 익명함수 밖에서 MYAPP 호출 안됨
 ```
