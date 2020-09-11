@@ -20,10 +20,10 @@
 var vscope = 'global'; // 전역변수
 function fscope(){
     vscope = 'local'; // var 있으면 지역변수 없으면 전역변
-    alert('함수안'+vscope); // return : local
+    alert('함수안'+vscope); // return : 함수안 local
 }
 fscope();
-alert('함수밖'+vscope); // return : local
+alert('함수밖'+vscope); // return : 함수밖 local
 ```
 
 ### 유효범위의 효용
