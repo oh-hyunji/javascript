@@ -79,7 +79,7 @@ function sum(){
 document.write(sum());
 
 // 전역변수를 사용하고 싶지 않다면 아래와 같이 익명함수를 호출함
-(function(){ // 익명함수, 즉시실
+(function(){ // 익명함수, 즉시실행 함수   
     var MYAPP = {}
     MYAPP.calculator = {
         'left' : null,
