@@ -46,7 +46,7 @@ for(var i = 0; i < 5; i++){
 
 ```javascript
 function a (){
-    i = 0; // var가 없
+    i = 0; // var가 없음  
 }
 for(i = 0; i < 5; i++){
     a();
