@@ -158,7 +158,7 @@ if(1){ // true
 
 ```javascript
 if(!''){
-    alert('빈 문자열')
+    alert('빈 문자열'); 
 }
 
 if(!undefined){
