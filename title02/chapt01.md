@@ -95,7 +95,7 @@ document.write(sum());
         return MYAPP.calculator.left + MYAPP.calculator.right;
     }
     document.write(sum());
-}())
+}());  
 // 익명함수 밖에서 MYAPP 호출 안됨
 ```
 
