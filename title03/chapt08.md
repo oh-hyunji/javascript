@@ -29,7 +29,7 @@ var a = ['egoing','leezche','grapittie'];
 console.log(a.contain('leezche')); // true
 ```
 
-* **Object 객체는 확장하지 않는 것이 바람직**, 모든 객체에 영향을 
+* **Object 객체는 확장하지 않는 것이 바람직**, 모든 객체에 영향  
 
 ```javascript
 for(var name in o){
